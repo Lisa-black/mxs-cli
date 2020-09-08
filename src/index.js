@@ -11,7 +11,7 @@ import chalk from 'chalk';
 
 let actionMap = {
   init: {
-    description: 'generate a new project from a template. 从模板生成新项目。',
+    description: '从模板生成新项目。',
     usages: [
       'mxs init templateName projectName'
     ],

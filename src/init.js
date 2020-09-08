@@ -41,7 +41,7 @@ const question = [
     message: 'Please enter the project port: ',
     default: 8080,
     validate: function (val) {
-      if (val.match(/\d{2,6}/g)) { // 校验位数
+      if (val && val.match(/\d{2,6}/g)) { // 校验位数
         return true;
       }
       return "请输入2-6位数字";

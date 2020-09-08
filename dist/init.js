@@ -52,7 +52,7 @@ const question = [{
   message: 'Please enter the project port: ',
   default: 8080,
   validate: function (val) {
-    if (val.match(/\d{2,6}/g)) {
+    if (val && val.match(/\d{2,6}/g)) {
       // 校验位数
       return true;
     }
