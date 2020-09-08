@@ -1,6 +1,6 @@
 {
   "name": "mxs-cli",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "vue脚手架，探索适合最佳工程结构脚手架",
   "main": "index.js",
   "bin": {

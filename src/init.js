@@ -30,7 +30,7 @@ const question = [
     message: 'Please enter the project type：',
     choices: [
       "web",
-      "vue3+ts",
+      "vue3-ts",
       "mui-subapp",
       "mui-master"
     ]
