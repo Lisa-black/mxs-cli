@@ -17,13 +17,16 @@ const downloadLocal = exports.downloadLocal = async (projectName, projectType) =
     case 'web':
       templatePath = 'hql7/xy-template-vue';
       break;
+    case 'vue3-h5':
+      templatePath = 'Lisa-black/minxs-template-vue3-ts';
+      break;
     case 'vue3-ts':
       templatePath = 'Lisa-black/minxs-template-vue3-ts';
       break;
-    case 'mfe-subapp':
+    case 'mul-subapp':
       templatePath = 'hql7/xy-template-mfe-subapp-vue';
       break;
-    case 'mfe-master':
+    case 'mul-master':
       templatePath = 'hql7/xy-template-mfe-master-vue';
       break;
     default:
