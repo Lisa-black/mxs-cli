@@ -45,7 +45,7 @@ const question = [{
   type: 'list',
   name: 'type',
   message: 'Please enter the project type：',
-  choices: ["web", "mfe-subapp", "mfe-master"]
+  choices: ["web", "vue3+ts", "mui-subapp", "mui-master"]
 }, {
   type: 'input',
   name: 'port',

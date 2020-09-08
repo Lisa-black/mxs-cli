@@ -5,10 +5,7 @@ export const downloadLocal = async (projectName, projectType) => {
   switch (projectType) {
     case 'web':
       templatePath = 'hql7/xy-template-vue';
-      break;
-    case 'vue3-h5':
-        templatePath = 'Lisa-black/minxs-template-vue3-ts';  
-        break;      
+      break;    
     case 'vue3-ts':
       templatePath = 'Lisa-black/minxs-template-vue3-ts';  
       break;
